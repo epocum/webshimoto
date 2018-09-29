@@ -11,7 +11,7 @@ npm install webshimoto
 ```js
 var algo = require('webshimoto');
 
-//Return if the node is validated by the network
+//Return True/False if the node is validated by the network
 algo.isEpocum('https://www.epocum.com', function(validation) {
    console.log('Validity link: ' + valid);
 });
