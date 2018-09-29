@@ -14,11 +14,13 @@ npm install webshimoto
 ```js
 var algo = require('webshimoto');
 
-algo.isEpocum('https://www.epocum.com', function(valid) {
+//Return if the node is validated by the network
+algo.isEpocum('https://www.epocum.com', function(validation) {
    console.log('Validity link: ' + valid);
 });
 
-algo.getWallet('https://www.epocum.com', function(w) {
+//Return the node wallet address
+algo.getWallet('https://www.epocum.com', function(walletaddress) {
    console.log('onSite Wallet: ' + w);
 });
 
