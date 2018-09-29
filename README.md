@@ -1,5 +1,5 @@
-# webshimoto
-Epocum network nodes driver
+# Webshimoto
+Epocum network algorithm for nodes driver
 
 # Driver for website as node verification
 
