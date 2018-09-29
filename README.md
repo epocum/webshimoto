@@ -9,6 +9,8 @@ npm install webshimoto
 
 # Working Example
 
+<template>
+  <highlight :code="code">
 var algo = require('webshimoto');
 
 algo.isEpocum('https://www.epocum.com', function(valid) {
@@ -18,6 +20,9 @@ algo.isEpocum('https://www.epocum.com', function(valid) {
 algo.getWallet('https://www.epocum.com', function(w) {
    console.log('onSite Wallet: ' + w);
 });
+
+</highlight>
+</template>
 
 Save it as app.js
 Running : node app.js
