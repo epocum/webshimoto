@@ -5,11 +5,12 @@ Epocum network nodes driver
 
 https://epocum.github.io/webshimoto/
 
+```bash
 npm install webshimoto
+```
 
 # Working Example
 
-  <highlight :code="code">
 var algo = require('webshimoto');
 
 algo.isEpocum('https://www.epocum.com', function(valid) {
@@ -20,7 +21,6 @@ algo.getWallet('https://www.epocum.com', function(w) {
    console.log('onSite Wallet: ' + w);
 });
 
-</highlight>
 
 
 Save it as app.js
