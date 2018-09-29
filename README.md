@@ -9,7 +9,6 @@ npm install webshimoto
 
 # Working Example
 
-<template>
   <highlight :code="code">
 var algo = require('webshimoto');
 
@@ -22,7 +21,7 @@ algo.getWallet('https://www.epocum.com', function(w) {
 });
 
 </highlight>
-</template>
+
 
 Save it as app.js
 Running : node app.js
